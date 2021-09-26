@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6E081E226EA3F50005A7B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E081E126EA3F50005A7B9A /* AppDelegate.swift */; };
+		F6E081E426EA3F50005A7B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E081E326EA3F50005A7B9A /* SceneDelegate.swift */; };
+		F6E081E626EA3F50005A7B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E081E526EA3F50005A7B9A /* ViewController.swift */; };
+		F6E081E926EA3F50005A7B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E081E726EA3F50005A7B9A /* Main.storyboard */; };
+		F6E081EB26EA3F50005A7B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E081EA26EA3F50005A7B9A /* Assets.xcassets */; };
+		F6E081EE26EA3F50005A7B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E081EC26EA3F50005A7B9A /* LaunchScreen.storyboard */; };
+		F6E081F926EA3F50005A7B9A /* SquareUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E081F826EA3F50005A7B9A /* SquareUpTests.swift */; };
+		F6E0820426EA3F50005A7B9A /* SquareUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E0820326EA3F50005A7B9A /* SquareUpUITests.swift */; };
+		F6E0821D26EA5CE9005A7B9A /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6E0821726EA5CE9005A7B9A /* square.jpg */; };
+		F6E0823426F02B5A005A7B9A /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6E0823326F02B5A005A7B9A /* MyScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E081F526EA3F50005A7B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E081D626EA3F4F005A7B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E081DD26EA3F50005A7B9A;
+			remoteInfo = SquareUp;
+		};
+		F6E0820026EA3F50005A7B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E081D626EA3F4F005A7B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E081DD26EA3F50005A7B9A;
+			remoteInfo = SquareUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6E081DE26EA3F50005A7B9A /* SquareUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E081E126EA3F50005A7B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E081E326EA3F50005A7B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6E081E526EA3F50005A7B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6E081E826EA3F50005A7B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E081EA26EA3F50005A7B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E081ED26EA3F50005A7B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E081EF26EA3F50005A7B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E081F426EA3F50005A7B9A /* SquareUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E081F826EA3F50005A7B9A /* SquareUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareUpTests.swift; sourceTree = "<group>"; };
+		F6E081FA26EA3F50005A7B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E081FF26EA3F50005A7B9A /* SquareUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E0820326EA3F50005A7B9A /* SquareUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareUpUITests.swift; sourceTree = "<group>"; };
+		F6E0820526EA3F50005A7B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E0821726EA5CE9005A7B9A /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
+		F6E0823326F02B5A005A7B9A /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E081DB26EA3F50005A7B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081F126EA3F50005A7B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081FC26EA3F50005A7B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E081D526EA3F4F005A7B9A = {
+			isa = PBXGroup;
+			children = (
+				F6E081E026EA3F50005A7B9A /* SquareUp */,
+				F6E081F726EA3F50005A7B9A /* SquareUpTests */,
+				F6E0820226EA3F50005A7B9A /* SquareUpUITests */,
+				F6E081DF26EA3F50005A7B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E081DF26EA3F50005A7B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E081DE26EA3F50005A7B9A /* SquareUp.app */,
+				F6E081F426EA3F50005A7B9A /* SquareUpTests.xctest */,
+				F6E081FF26EA3F50005A7B9A /* SquareUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E081E026EA3F50005A7B9A /* SquareUp */ = {
+			isa = PBXGroup;
+			children = (
+				F6E081E126EA3F50005A7B9A /* AppDelegate.swift */,
+				F6E081E326EA3F50005A7B9A /* SceneDelegate.swift */,
+				F6E081E526EA3F50005A7B9A /* ViewController.swift */,
+				F6E0823326F02B5A005A7B9A /* MyScene.sks */,
+				F6E081E726EA3F50005A7B9A /* Main.storyboard */,
+				F6E081EA26EA3F50005A7B9A /* Assets.xcassets */,
+				F6E081EC26EA3F50005A7B9A /* LaunchScreen.storyboard */,
+				F6E081EF26EA3F50005A7B9A /* Info.plist */,
+				F6E0821726EA5CE9005A7B9A /* square.jpg */,
+			);
+			path = SquareUp;
+			sourceTree = "<group>";
+		};
+		F6E081F726EA3F50005A7B9A /* SquareUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E081F826EA3F50005A7B9A /* SquareUpTests.swift */,
+				F6E081FA26EA3F50005A7B9A /* Info.plist */,
+			);
+			path = SquareUpTests;
+			sourceTree = "<group>";
+		};
+		F6E0820226EA3F50005A7B9A /* SquareUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0820326EA3F50005A7B9A /* SquareUpUITests.swift */,
+				F6E0820526EA3F50005A7B9A /* Info.plist */,
+			);
+			path = SquareUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E081DD26EA3F50005A7B9A /* SquareUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E0820826EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUp" */;
+			buildPhases = (
+				F6E081DA26EA3F50005A7B9A /* Sources */,
+				F6E081DB26EA3F50005A7B9A /* Frameworks */,
+				F6E081DC26EA3F50005A7B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareUp;
+			productName = SquareUp;
+			productReference = F6E081DE26EA3F50005A7B9A /* SquareUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E081F326EA3F50005A7B9A /* SquareUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E0820B26EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUpTests" */;
+			buildPhases = (
+				F6E081F026EA3F50005A7B9A /* Sources */,
+				F6E081F126EA3F50005A7B9A /* Frameworks */,
+				F6E081F226EA3F50005A7B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E081F626EA3F50005A7B9A /* PBXTargetDependency */,
+			);
+			name = SquareUpTests;
+			productName = SquareUpTests;
+			productReference = F6E081F426EA3F50005A7B9A /* SquareUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6E081FE26EA3F50005A7B9A /* SquareUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E0820E26EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUpUITests" */;
+			buildPhases = (
+				F6E081FB26EA3F50005A7B9A /* Sources */,
+				F6E081FC26EA3F50005A7B9A /* Frameworks */,
+				F6E081FD26EA3F50005A7B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E0820126EA3F50005A7B9A /* PBXTargetDependency */,
+			);
+			name = SquareUpUITests;
+			productName = SquareUpUITests;
+			productReference = F6E081FF26EA3F50005A7B9A /* SquareUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E081D626EA3F4F005A7B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F6E081DD26EA3F50005A7B9A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F6E081F326EA3F50005A7B9A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F6E081DD26EA3F50005A7B9A;
+					};
+					F6E081FE26EA3F50005A7B9A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F6E081DD26EA3F50005A7B9A;
+					};
+				};
+			};
+			buildConfigurationList = F6E081D926EA3F4F005A7B9A /* Build configuration list for PBXProject "SquareUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E081D526EA3F4F005A7B9A;
+			productRefGroup = F6E081DF26EA3F50005A7B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E081DD26EA3F50005A7B9A /* SquareUp */,
+				F6E081F326EA3F50005A7B9A /* SquareUpTests */,
+				F6E081FE26EA3F50005A7B9A /* SquareUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E081DC26EA3F50005A7B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E0821D26EA5CE9005A7B9A /* square.jpg in Resources */,
+				F6E081EE26EA3F50005A7B9A /* LaunchScreen.storyboard in Resources */,
+				F6E0823426F02B5A005A7B9A /* MyScene.sks in Resources */,
+				F6E081EB26EA3F50005A7B9A /* Assets.xcassets in Resources */,
+				F6E081E926EA3F50005A7B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081F226EA3F50005A7B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081FD26EA3F50005A7B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E081DA26EA3F50005A7B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E081E626EA3F50005A7B9A /* ViewController.swift in Sources */,
+				F6E081E226EA3F50005A7B9A /* AppDelegate.swift in Sources */,
+				F6E081E426EA3F50005A7B9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081F026EA3F50005A7B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E081F926EA3F50005A7B9A /* SquareUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E081FB26EA3F50005A7B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E0820426EA3F50005A7B9A /* SquareUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E081F626EA3F50005A7B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E081DD26EA3F50005A7B9A /* SquareUp */;
+			targetProxy = F6E081F526EA3F50005A7B9A /* PBXContainerItemProxy */;
+		};
+		F6E0820126EA3F50005A7B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E081DD26EA3F50005A7B9A /* SquareUp */;
+			targetProxy = F6E0820026EA3F50005A7B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6E081E726EA3F50005A7B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E081E826EA3F50005A7B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E081EC26EA3F50005A7B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E081ED26EA3F50005A7B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E0820626EA3F50005A7B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6E0820726EA3F50005A7B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E0820926EA3F50005A7B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E0820A26EA3F50005A7B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6E0820C26EA3F50005A7B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareUp.app/SquareUp";
+			};
+			name = Debug;
+		};
+		F6E0820D26EA3F50005A7B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUpTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareUp.app/SquareUp";
+			};
+			name = Release;
+		};
+		F6E0820F26EA3F50005A7B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareUp;
+			};
+			name = Debug;
+		};
+		F6E0821026EA3F50005A7B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SquareUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreeapps.SquareUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E081D926EA3F4F005A7B9A /* Build configuration list for PBXProject "SquareUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0820626EA3F50005A7B9A /* Debug */,
+				F6E0820726EA3F50005A7B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E0820826EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0820926EA3F50005A7B9A /* Debug */,
+				F6E0820A26EA3F50005A7B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E0820B26EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0820C26EA3F50005A7B9A /* Debug */,
+				F6E0820D26EA3F50005A7B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E0820E26EA3F50005A7B9A /* Build configuration list for PBXNativeTarget "SquareUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0820F26EA3F50005A7B9A /* Debug */,
+				F6E0821026EA3F50005A7B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E081D626EA3F4F005A7B9A /* Project object */;
+}
