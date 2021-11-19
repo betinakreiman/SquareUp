@@ -1,0 +1,3 @@
+[submodule "Squareup"]
+	path = Squareup
+	url = https://github.com/betinakreiman/SquareUp.git
