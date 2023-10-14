@@ -1,3 +1,7 @@
-# Square Up!
-## Hello world. This is my Square Up app project. 
-### I will be uploading code to ensure that no code is lost in the process.
+# SquareUp
+
+Logic puzzle app. Made with Swift
+
+[Square Up on the App Store](https://apps.apple.com/us/app/drawnet/id1626649912](https://apps.apple.com/us/app/the-up-square/id1593101687)
+
+![alt text](drawNetImg.jpg "SquareUp App Image")
